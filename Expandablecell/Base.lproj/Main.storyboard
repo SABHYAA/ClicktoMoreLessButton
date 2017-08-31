@@ -42,7 +42,7 @@
                                                     <rect key="frame" x="18" y="43.5" width="349" height="30"/>
                                                     <state key="normal" title="Button"/>
                                                     <connections>
-                                                        <action selector="moreBtn:" destination="uBn-G7-h8c" eventType="touchUpInside" id="iFo-Jd-HOa"/>
+                                                        <action selector="moreBtn:" destination="uBn-G7-h8c" eventType="touchUpInside" id="qwz-UE-xAE"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -78,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waU-8v-vfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335.19999999999999" y="-50.824587706146929"/>
+            <point key="canvasLocation" x="-713" y="-40"/>
         </scene>
     </scenes>
 </document>

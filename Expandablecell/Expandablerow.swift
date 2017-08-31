@@ -23,14 +23,28 @@ class Expandablerow: UIViewController {
     
     }
    
-    @IBAction func moreBtn(_ sender: UIButton) {
-     self.selectmoreButton = !self.selectmoreButton
-        tableview.reloadData()
+    
+  
+  //  @IBAction func moreBtn( Btn sender: UIButton) {
+        @IBAction func moreBtn(_ sender: UIButton) {
+            
+            self.selectmoreButton = !self.selectmoreButton
+            
+             tableview.reloadData()
+        }
+    
+//        if (selectmoreButton){
+//            moreBtnOutlet.setTitle("Less", for: .normal)
+//        }
+//        else {
+//          moreBtnOutlet.setTitle("More", for: .normal)
+//        }
+    
     
     }
     
     
-}
+
 extension Expandablerow : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        if self.selectmoreButton == false{
